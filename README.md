@@ -6,14 +6,14 @@ By incorporating the visual feedback from the front camera with the PID control 
 
 ## Requirements  
 
-Anki cozmo
-Android phone/iPhone
-Ubuntu 14.04/16.04  
-ROS Indigo/Kinetic  
-Python3.5  
-(Cozmo SDK)  
-Cozmo driver for ROS https://github.com/OTL/cozmo_driver  (Takashi Ogura)  
-For more detail about Cozmo ros and the setup, please visit the link above
+* Anki cozmo
+* Android phone/iPhone
+* Ubuntu 14.04/16.04  
+* ROS Indigo/Kinetic  
+* Python3.5  
+* (Cozmo SDK)  
+* Cozmo driver for ROS https://github.com/OTL/cozmo_driver  (Takashi Ogura)  
+  For more detail about Cozmo ros and the setup, please visit the link above
 ---
 
 ## ROS structure
