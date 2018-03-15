@@ -33,7 +33,7 @@ class vel_ctrl(object):
         self.say_flag =0
         rospy.init_node('vel_ctl', anonymous=False)
         self.vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1)
-        self.say_pub = rospy.Publisher('/say', String, queue_size=1)
+        # self.say_pub = rospy.Publisher('/say', String, queue_size=1)
         rospy.Subscriber('/obj_size', Float64MultiArray, self.callback)
 
 
