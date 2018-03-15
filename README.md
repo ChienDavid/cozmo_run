@@ -57,4 +57,3 @@ The color in the video stream returned by the cozmo is very warm and the auto-wh
 1. The color of the road is set to be orange in this package. You can adjust the color by setting color_min and color_max in the ctrl2.py. You can change the setting to the stop sign in the same file. (obj_color_min/obj_color_max)
 2. Be sure to change the stream setting in the cozmo driver so it outputs color stream but not black and white. (coz.camera.color_image_enabled = True)  
 3. The frame rate setting can also be done by properly setting the cozmo driver  
-4.
